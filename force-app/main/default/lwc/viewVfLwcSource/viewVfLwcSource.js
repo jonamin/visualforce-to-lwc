@@ -1,7 +1,6 @@
 import { LightningElement, api } from 'lwc';
 
 export default class ViewSource extends LightningElement {
-    //
     _baseURL =
         'https://github.com/trailheadapps/visualforce-to-lwc/tree/master/force-app/main/default/';
 
