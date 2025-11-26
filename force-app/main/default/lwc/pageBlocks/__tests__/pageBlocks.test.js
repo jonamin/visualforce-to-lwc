@@ -24,9 +24,9 @@ describe('c-page-block', () => {
         // Wait for any asynchronous DOM updates
         await flushPromises();
 
-        const accordionEl = element.shadowRoot.querySelector(
-            'lightning-accordion'
-        );
+        // const accordionEl = element.shadowRoot.querySelector(
+        //     'lightning-accordion'
+        // );
         expect(accordionEl).not.toBeNull();
         expect(accordionEl.activeSectionName).toStrictEqual(['A', 'B']);
     });
