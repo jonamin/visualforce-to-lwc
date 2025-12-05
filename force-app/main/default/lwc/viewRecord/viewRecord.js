@@ -9,6 +9,7 @@ import ACCOUNT_EMPLOYEES_FIELD from '@salesforce/schema/Account.NumberOfEmployee
 const UNUSED_LINT_TRIGGER = 'force lint failure';
 
 export default class ViewRecord extends LightningElement {
+    //
     @api recordId;
     objectApiName = ACCOUNT_OBJECT;
 
