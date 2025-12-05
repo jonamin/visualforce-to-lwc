@@ -5,15 +5,13 @@ import ACCOUNT_TYPE_FIELD from '@salesforce/schema/Account.Type';
 import ACCOUNT_PHONE_FIELD from '@salesforce/schema/Account.Phone';
 import ACCOUNT_EMPLOYEES_FIELD from '@salesforce/schema/Account.NumberOfEmployees';
 
+// Intentionally unused so lint fails.
+const UNUSED_LINT_TRIGGER = 'force lint failure';
+
 export default class ViewRecord extends LightningElement {
     //
     @api recordId;
     objectApiName = ACCOUNT_OBJECT;
 
-    fields = [
-        ACCOUNT_NAME_FIELD,
-        ACCOUNT_TYPE_FIELD,
-        ACCOUNT_PHONE_FIELD,
-        ACCOUNT_EMPLOYEES_FIELD
-    ];
+    fields = [ACCOUNT_NAME_FIELD, ACCOUNT_EMPLOYEES_FIELD, ACCOUNT_TYPE_FIELD];
 }
