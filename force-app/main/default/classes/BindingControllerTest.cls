@@ -6,6 +6,6 @@ private class BindingControllerTest {
         BindingController controller = new BindingController();
 
         // THEN
-        System.assertEquals(controller.courseName, 'Default');
+        System.assertEquals(controller.courseName, 'Defaults');
     }
 }
