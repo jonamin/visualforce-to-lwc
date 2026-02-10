@@ -11,10 +11,7 @@ private class TestPageMessagesDataRetrievalCtrllerLwc {
         } catch (Exception e) {
             // Assertions
             System.assert(
-                e.getMessage()
-                    .contains(
-                        'An exception occurred while retrieving accounts.'
-                    ),
+                e.getMessage().contains('This message will never match.'),
                 'Expected exception message not received.' + e.getMessage()
             );
         }
