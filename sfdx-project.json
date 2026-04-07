@@ -30,6 +30,14 @@
             "default": false,
             "package": "pckg2",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "fgenpckg",
+            "versionDescription": ""
         }
     ],
     "namespace": "",
@@ -44,6 +52,7 @@
         "vf2lwc@54.0.0-7": "04t3h0000046N4MAAU",
         "vftolwc": "0HoP50000000ev7KAA",
         "managedpckg": "0Hod1000000062DCAQ",
-        "pckg2": "0HoP50000000lLVKAY"
+        "pckg2": "0HoP50000000lLVKAY",
+        "fgenpckg": "0HoP50000000lOjKAI"
     }
 }
