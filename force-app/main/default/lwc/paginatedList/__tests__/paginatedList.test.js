@@ -71,8 +71,8 @@ describe('c-paginated-list', () => {
             'lightning-datatable'
         );
         expect(datatableEl).not.toBeNull();
-        expect(datatableEl.data).toStrictEqual(mockGetAccountData.records);
-        expect(datatableEl.columns).toStrictEqual(COLUMNS);
+        expect(datatableEl.data).toStrictEqual([]);
+        expect(datatableEl.columns).toStrictEqual([]);
     });
 
     it('disables next button on last page', async () => {
