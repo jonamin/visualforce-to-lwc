@@ -38,6 +38,14 @@
             "default": false,
             "package": "mngdpckg",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "pckg3",
+            "versionDescription": ""
         }
     ],
     "namespace": "Tekunda",
@@ -53,6 +61,7 @@
         "vftolwc": "0HoP50000000ev7KAA",
         "managedpckg": "0Hod1000000062DCAQ",
         "pckg2": "0HoP50000000lLVKAY",
-        "mngdpckg": "0HoP50000000ouTKAQ"
+        "mngdpckg": "0HoP50000000ouTKAQ",
+        "pckg3": "0HoP50000000pXBKAY"
     }
 }
