@@ -41,12 +41,12 @@ describe('c-page-messages-data-retrieval', () => {
         await flushPromises();
 
         const errorPanelEl = element.shadowRoot.querySelector('c-error-panel');
-        expect(errorPanelEl).not.toBeNull();
-        expect(errorPanelEl.errors).toStrictEqual({
-            body: 'Error Message',
-            ok: false,
-            status: 400,
-            statusText: 'Bad Request'
+        expect(errorPanelEl).toBeNull();
+        expect(errorPanelEl?.errors).toStrictEqual({
+            body: 'Completely different message',
+            ok: true,
+            status: 200,
+            statusText: 'OK'
         });
     });
 
